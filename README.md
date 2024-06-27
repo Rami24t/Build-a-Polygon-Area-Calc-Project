@@ -1,4 +1,4 @@
-# Scientific Computing with Python (Beta) | Build a Polygon Area Calculator Project
+# Scientific Computing with Python (fCC) | Build a Polygon Area Calculator Project
 
 ### Scientific computing with Python fCC curicculum: Polygon Area Calc Project: In this project I used object oriented programming to create a Rectangle class and a Square class. The Square class is a subclass of Rectangle, and inherit its methods and attributes.
 ### This was one out of the 5 certification projects required projects included in the Scientific Computing with Python (Beta) course in the fCC org curriculum.
