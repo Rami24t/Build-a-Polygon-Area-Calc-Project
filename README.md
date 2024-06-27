@@ -8,7 +8,7 @@ The Scientific Computing with Python curriculum will equip programmers with the 
 
 ## Build a Polygon Area Calculator Project
 
-#### In this project I have used the Python programming language and the object oriented programming paradigm to create a Rectangle class and a Square class. The Square class is a subclass of Rectangle, and inherits its methods and attributes.
+#### In this project I have used Python and object oriented programming to create a Rectangle class and a Square class. The Square class is a subclass of Rectangle, and inherits its methods and attributes.
 
 ### Rectangle class
 
