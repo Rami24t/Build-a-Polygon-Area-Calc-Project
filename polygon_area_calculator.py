@@ -45,6 +45,12 @@ class Square(Rectangle):
     def set_side(self, side):
         self.width = side
         self.height = side
+
+    def set_width(self, width):
+        self.set_side(width)
+
+    def set_height(self, height):
+        self.set_side(height)
         
     def __repr__(self):
         return f"{self.__class__.__name__}(side={self.width})"
