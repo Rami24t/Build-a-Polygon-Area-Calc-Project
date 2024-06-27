@@ -3,12 +3,6 @@ class Rectangle():
         self.width = width
         self.height = height
 
-    def __repr__(self):
-        params = ', '.join([
-            f"{i}={getattr(self, i)}" for i in vars(self)
-        ])
-        return f'{self.__class__.__name__}({params})'
-
     def set_width(self, width):
         self.width = width
 
@@ -25,18 +19,63 @@ class Rectangle():
         return (self.width**2 + self.height**2)**0.5
 
     def get_picture(self):
-        output = ('*'*self.width +'\n' for _ in range(0,self.height))
-        return ''.join(output)
+        output = ''
+        if self.width > 50 or self.height > 50:
+            output = "Too big for picture."
+        else:
+            output = ''.join('*'*self.width +'\n' for _ in range(0,self.height))
+        return output
 
-    def get_amount_inside(self):
+    def get_amount_inside(self, other):
         pass
+    
+    def __repr__(self):
+        params = ', '.join([
+            f"{i}={getattr(self, i)}" for i in vars(self)
+        ])
+        return f'{self.__class__.__name__}({params})'
 
-class Square:
-    def __init__(self, width):
-        super().__init__()
+
+class Square(Rectangle):
+    def __init__(self, side):
+        super().__init__(side, side)
+    
+    def set_side(self, side):
+        self.width = side
+        self.height = side
+        
+    def __repr__(self):
+        return f"{self.__class__.__name__}(side={self.width})"
 
 
+# Usage examples
 if(__name__=='__main__'):
-    rect1 = Rectangle(9,5)
-    print(str(rect1) + '\n')
-    print(rect1.get_picture())
+    sq1 = Square(3) # output: 5.656854249492381
+    print(str(sq1) + '\n')
+    print(sq1.get_picture())
+    # ***
+    # ***
+    # ***
+
+    rect = Rectangle(10, 5)
+    print(rect.get_area()) # output: 50
+    rect.set_height(3)
+    print(rect.get_perimeter()) # output: 26
+    print(rect) # output: Rectangle(width=10, height=3)
+    print(rect.get_picture())
+    #  output:
+    # **********
+    # **********
+    # **********
+
+    sq2 = Square(9)
+    print(sq2.get_area()) # output: 81
+    sq2.set_side(4)
+    print(sq2.get_diagonal()) # output: 5.656854249492381
+    print(sq2) # output: Square(side=4)
+    print(sq2.get_picture())
+    #  output:
+    # ****
+    # ****
+    # ****
+    # ****
