@@ -1,9 +1,9 @@
 # Scientific Computing with Python (fCC) | Build a Polygon Area Calculator Project
 
-#### The Build a Polygon Area Calculator Project
+### The Build a Polygon Area Calculator Project
  In this project I have used the Python high-level, general-purpose programming language and the object oriented programming paradigm model. This is one out of the 5 certification projects required to successfully complete the Scientific Computing with Python (Beta) curriculum from fCC.org.
 
-#### Scientific Computing with Python curriculum
+### Scientific Computing with Python curriculum
 The Scientific Computing with Python curriculum will equip programmers with the skills to analyze and manipulate data using Python, a powerful and versatile programming language. Programmers will learn and practice key concepts like data structures, algorithm, Object Oriented Programming, and how to perform complex calculations using a variety of tools. This comprehensive course will guide you through the fundamentals of scientific computing, including data structures, and algorithms.
 
 ## Build a Polygon Area Calculator Project
