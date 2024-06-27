@@ -10,7 +10,6 @@ The Scientific Computing with Python curriculum will equip programmers with the 
 
 #### In this project I have use object oriented programming (in Python) to create a Rectangle class and a Square class. The Square class is a subclass of Rectangle, and inherits its methods and attributes.
 
-### Project Description 
 #### Rectangle class
 
 When a Rectangle object is created, it should be initialized with width and height attributes. The class should also contain the following methods:
