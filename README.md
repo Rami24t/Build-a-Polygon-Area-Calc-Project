@@ -2,7 +2,7 @@
 
 ### Scientific computing with Python from the fCC curicculum: The Build a Polygon Area Calc Project: In this project I used object oriented programming to create a Rectangle class and a Square class. This is one out of the 5 certification projects required to successfully complete the Scientific Computing with Python (Beta) curriculum from fCC.org.
 
-### Scientific Computing with Python Description: The Scientific Computing with Python curriculum will equip programmers with the skills to analyze and manipulate data using Python, a powerful and versatile programming language. Programmers will learn and practice key concepts like data structures, algorithm, Object Oriented Programming, and how to perform complex calculations using a variety of tools. This comprehensive course will guide you through the fundamentals of scientific computing, including data structures, and algorithms.
+### Scientific Computing with Python curriculum: The Scientific Computing with Python curriculum will equip programmers with the skills to analyze and manipulate data using Python, a powerful and versatile programming language. Programmers will learn and practice key concepts like data structures, algorithm, Object Oriented Programming, and how to perform complex calculations using a variety of tools. This comprehensive course will guide you through the fundamentals of scientific computing, including data structures, and algorithms.
 
 ## Build a Polygon Area Calculator Project
 
