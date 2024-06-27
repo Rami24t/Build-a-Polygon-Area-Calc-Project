@@ -27,9 +27,7 @@ class Rectangle():
         return output
 
     def get_amount_inside(self, other):
-        if self.width >= other.width and self.height >= other.height:
-            return self.width//other.width * self.height//other.height
-        return 0
+        return self.width//other.width * self.height//other.height
     
     def __repr__(self):
         params = ', '.join([
