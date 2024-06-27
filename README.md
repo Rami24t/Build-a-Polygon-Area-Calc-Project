@@ -1,14 +1,15 @@
 # Scientific Computing with Python (fCC) | Build a Polygon Area Calculator Project
 
 ### Scientific computing with Python from the fCC curicculum: The Build a Polygon Area Calc Project: In this project I used object oriented programming to create a Rectangle class and a Square class. The Square class is a subclass of Rectangle, and inherit its methods and attributes.
-### This was one out of the 5 certification projects required projects included in the Scientific Computing with Python (Beta) course in the fCC org curriculum.
+### This was one out of the 5 certification projects required to successfully finish the Scientific Computing with Python (Beta) curriculum from fCC.org.
 
-### The Scientific Computing with Python (Beta) curriculum will equip you with the skills to analyze and manipulate data using Python, a powerful and versatile programming language. You'll learn key concepts like data structures, algorithm, Object Oriented Programming, and how to perform complex calculations using a variety of tools.
-### This comprehensive course will guide you through the fundamentals of scientific computing, including data structures, and algorithms.
+### Scientific Computing with Python Description: The Scientific Computing with Python curriculum will equip programmers with the skills to analyze and manipulate data using Python, a powerful and versatile programming language. Programmers will learn and practice key concepts like data structures, algorithm, Object Oriented Programming, and how to perform complex calculations using a variety of tools. This comprehensive course will guide you through the fundamentals of scientific computing, including data structures, and algorithms.
 
 ## Build a Polygon Area Calculator Project
 
-### In this project I have use object oriented programming (in Python) to create a Rectangle class and a Square class. The Square class is a subclass of Rectangle, and inherits its methods and attributes.
+#### In this project I have use object oriented programming (in Python) to create a Rectangle class and a Square class. The Square class is a subclass of Rectangle, and inherits its methods and attributes.
+
+### Project Description 
 #### Rectangle class
 
 When a Rectangle object is created, it should be initialized with width and height attributes. The class should also contain the following methods:
