@@ -29,7 +29,7 @@ The Square class should be a subclass of Rectangle. When a Square object is crea
 The Square class should be able to access the Rectangle class methods but should also contain a set_side method. If an instance of a Square is represented as a string, it should look like: Square(side=9)
 
 Additionally, the set_width and set_height methods on the Square class should set both the width and height.
-### Usage example
+### Usage examples
 ```
 rect = Rectangle(10, 5)
 print(rect.get_area())
