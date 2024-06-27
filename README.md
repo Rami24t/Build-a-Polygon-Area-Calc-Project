@@ -49,3 +49,28 @@ rect.set_height(8)
 rect.set_width(16)
 print(rect.get_amount_inside(sq))
 ```
+
+
+### Tests
+```
+Passed: The Square class should be a subclass of the Rectangle class.
+Passed: The Square class should be a distinct class from the Rectangle class.
+Passed: A square object should be an instance of the Square class and the Rectangle class.
+Passed: The string representation of Rectangle(3, 6) should be Rectangle(width=3, height=6).
+Passed: The string representation of Square(5) should be Square(side=5).
+Passed: Rectangle(3, 6).get_area() should return 18.
+Passed: Square(5).get_area() should return 25.
+Passed: Rectangle(3, 6).get_perimeter() should return 18.
+Passed: Square(5).get_perimeter() should return 20.
+Passed: Rectangle(3, 6).get_diagonal() should return 6.708203932499369.
+Passed: Square(5).get_diagonal() should return 7.0710678118654755.
+Passed: An instance of the Rectangle class should have a different string representation after setting new values.
+Passed: An instance of the Square class should have a different string representation after setting new values by using .set_side().
+Passed: An instance of the Square class should have a different string representation after setting new values by using .set_width() or set_height().
+Passed: The .get_picture() method should return a different string representation of a Rectangle instance.
+Passed: The .get_picture() method should return a different string representation of a Square instance.
+Passed: The .get_picture() method should return the string Too big for picture. if the width or height attributes are larger than 50.
+Passed: Rectangle(15,10).get_amount_inside(Square(5)) should return 6.
+Passed: Rectangle(4,8).get_amount_inside(Rectangle(3, 6)) should return 1.
+Passed: Rectangle(2,3).get_amount_inside(Rectangle(3, 6)) should return 0.
+```
